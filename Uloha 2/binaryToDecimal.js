@@ -34,5 +34,5 @@ if (args.length === 0) {
     console.log("Usage: node binaryToDecimal.js <binary_number>");
 } else {
     const binaryInput = args[0]; // First argument as binary input
-    console.log(`Decimal: ${binaryToDecimal(binaryInput)}`);
+    console.log(`${binaryToDecimal(binaryInput)}`);
 }
